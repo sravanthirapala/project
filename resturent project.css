@@ -1,0 +1,92 @@
+body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: rgba(0,0,0,0.7) url(spring-vegetables-comfort-india-indian-indian-food.jpg) center center fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+}
+.container h1{
+    font-style: italic;
+    color:orangered;
+    margin-left: 10px;;
+    cursor: pointer;
+}
+.navbar {
+    display: inline-block;
+    padding: 18px; 
+    text-transform: uppercase;
+}
+.navbar a{
+    text-decoration: none;
+    color:blue ;
+    text-shadow: 1px 1px;
+    padding: 10px;
+    transition: 3.5s;
+    
+}
+.navbar a:hover{
+    background: #009688;
+}
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+.content{
+    position:absolute;
+    color:blue ;
+    top:40%;
+    left:30%;
+}
+.content h3{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    text-align: center;
+    margin-top: 17px;
+}
+.Search{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 45%;
+}
+.Search input{
+    outline: blue;
+    background-color: crimson;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+.Submit{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 49%;
+    width:100%;
+   
+
+}
+.Submit a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 12px 25px;
+    background-color: crimson;
+
+}
+.Submit a:hover {
+    background: blue;
+}
+
+
